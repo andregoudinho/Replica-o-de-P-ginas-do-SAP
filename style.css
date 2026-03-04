@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(154, 150, 150);
+    background-color: rgb(186, 180, 180);
     padding: 10px 20px;
     border-bottom: 2px solid #c9c9c9;
 }
 
 .toolbar {
-    display: flex;
+    display: flex;  
     gap: 10px;
 }
 
@@ -13,8 +13,7 @@ body {
     text-decoration: nome;
     color: black;
     background: white;
-    border: 1px solid #b7b1b1;
+    border: 1px solid #aea8a8;
     padding: 5px 10px;
-}
 }
 
