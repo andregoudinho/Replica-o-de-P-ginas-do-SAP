@@ -1,21 +1,72 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Dashboard Compras</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   
-   <header>
-    <div class="logo">Logotipo</div>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-        </ul>
-    </nav>
-</header>
- cabeçalho
+
+<h2>Dashboard de Compras</h2>
+
+<div class="dashboard">
+
+  <div class="card">
+    <h3>Assistente</h3>
+    <p>Olá! Como posso ajudar?</p>
+    <button>Comprar Material</button><br>
+    <button>Comprar Serviço</button><br>
+    <button>Consultar Processos</button>
+  </div>
+
+  <div class="card">
+    <h3>Pedidos Recentes</h3>
+    <table>
+      <tr>
+        <th>Nº</th>
+        <th>Data</th>
+        <th>Valor</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>125</td>
+        <td>20/04/2020</td>
+        <td>R$ 1.250,50</td>
+        <td><span class="status-verde">Aprovado</span></td>
+      </tr>
+      <tr>
+        <td>126</td>
+        <td>22/04/2020</td>
+        <td>R$ 850,00</td>
+        <td><span class="status-amarelo">Pendente</span></td>
+      </tr>
+      <tr>
+        <td>127</td>
+        <td>25/04/2020</td>
+        <td>R$ 430,00</td>
+        <td><span class="status-vermelho">Cancelado</span></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Recomendações</h3>
+    <p>Grampeador - R$ 18,00</p>
+    <button>Adicionar</button>
+
+    <p>Papel A4 - R$ 34,90</p>
+    <button>Adicionar</button>
+  </div>
+
+  <div class="card">
+    <h3>Mensagens</h3>
+    <p><b>João:</b> Verificar pagamento.</p>
+    <p><b>Márcio:</b> Meu serviço não foi entregue.</p>
+  </div>
+
+</div>
 
 </body>
 </html>
+
