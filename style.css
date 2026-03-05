@@ -6,14 +6,15 @@ body {
     border-bottom: 2px solid #c9c9c9;
 }
 
+
 .box {
-    background-color: #faf5f5;
+    background: rgb(201, 195, 195);
     padding: 10px;
     border: 1px solid #aea8a8;
 }
 
 .deco {
-    width: 100vw;
+    width: 100%;
     height: 30px;
     background-color: rgb(255, 255, 111);
 }
