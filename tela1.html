@@ -1,15 +1,23 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Customizing</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h2>Component Customizing/SCMTMS/WDCC_FWD_ORDER, 
-        Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"
-        </h2>
+        <div class="box">
+            <h2>Component Customizing/SCMTMS/WDCC_FWD_ORDER,
+                Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"
+            </h2>
+        </div>
+
+        <div class="deco">
+
+        </div>
 
         <nav class="toolbar">
             <a href="#">Save</a>
@@ -20,81 +28,262 @@
             <a href="#">Undo</a>
             <a href="#">Redo</a>
             <a href="#">Check</a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
             <a href="#">Additional Functions</a>
-        </nav>  
+        </nav>
+        </nav>
     </header>
+    <div class="box1">
+        <h2>Navigation</h2>
+        <h4>Repositories</h4>
+    </div>
 
-    <h2>Navigation</h2>
-    <h4>Repositories</h4>
+    <div class="a">
 
-    <table border="1">
-    <tr>
-        <th>Page Type</th>
-        <th>Page Id</th>
-        <th>Title</th>
-    </tr>
+        <table class="overview-table" border="1">
+            <tr>
+                <th>Page Type</th>
+                <th>Page Id</th>
+                <th>Title</th>
+            </tr>
 
-    <tr>
-        <td>Initial Page</td>
-        <td>INIT</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Initial Page</td>
+                <td>INIT</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Main Page</td>
-        <td>MAIN</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Main Page</td>
+                <td>MAIN</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Main Page</td>
-        <td>MAIN_FAST_EI</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Main Page</td>
+                <td>MAIN_FAST_EI</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Dialog Box</td>
-        <td>ADDRESS_DE</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Dialog Box</td>
+                <td>ADDRESS_DE</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Dialog Box</td>
-        <td>ACT_LIST</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Dialog Box</td>
+                <td>ACT_LIST</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Dialog Box</td>
-        <td>NOTE_HLP</td>
-        <td>$OTR:/BOFU</td>
-    </tr>
+            <tr>
+                <td>Dialog Box</td>
+                <td>NOTE_HLP</td>
+                <td>$OTR:/BOFU</td>
+            </tr>
 
-    <tr>
-        <td>Dialog Box</td>
-        <td>SEC_FILING_R</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Dialog Box</td>
+                <td>SEC_FILING_R</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Dialog Box</td>
-        <td>SEC_FILING_C</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Dialog Box</td>
+                <td>SEC_FILING_C</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Dialog Box</td>
-        <td>REPACT_NOTT</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
+            <tr>
+                <td>Dialog Box</td>
+                <td>REPACT_NOTT</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
 
-    <tr>
-        <td>Dialog Box</td>
-        <td>REPACT_ATF</td>
-        <td>$OTR:/SCMTMS</td>
-    </tr>
-</table>
+            <tr>
+                <td>Dialog Box</td>
+                <td>REPACT_ATF</td>
+                <td>$OTR:/SCMTMS</td>
+            </tr>
+        </table>
 
-    
+        <br><br>
+        <div>
+             <h2 class="c">Overview Page Schema</h2>
+            <br>
+
+            <table border="1">
+                <tr>
+                    <th>Element</th>
+                    <th>Component</th>
+                    <th>Config ID</th>
+                    <th>Window name</th>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_.../td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>DUIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+            </table>
+            </div>
+            </div>
+
+        <div class="form-container">
+    <h2>Attributes of UIBB</h2>
+
+    <form class="form-grid">
+
+        <div class="form-group">
+            <label>Window Name:</label>
+            <input type="text" value="FORM_WINDOW">
+        </div>
+
+        <div class="form-group">
+            <label>Title:</label>
+            <input type="text" value="$OTR:/SCMTMS/UI_CMN/ADM_INFO">
+        </div>
+
+        <div class="form-group">
+            <label>Config ID:</label>
+            <input type="text" value="/SCMTMS/WDCC_CMN_ADMINDATA">
+        </div>
+
+        <div class="form-group">
+            <label>Image:</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Instance ID:</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Padding:</label>
+            <select>
+                <option>Automatic (Default)</option>
+                <option>None</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Column:</label>
+            <input type="number" value="1">
+        </div>
+
+        <div class="form-group">
+            <label>Style:</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Row Number:</label>
+            <input type="number">
+        </div>
+
+        <div class="form-group">
+            <label>Explanation Text:</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Sequence Index:</label>
+            <input type="number">
+        </div>
+
+        <div class="form-group">
+            <label>Default Edit Page:</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Default:</label>
+            <select>
+                <option>Visible</option>
+                <option>Hidden and Excluded from Event Loop</option>
+                <option>Hidden but Processed in Event Loop (Technical)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Default Details Page:</label>
+            <input type="text">
+        </div>
+
+    </form>
+</div>
+
+
 </body>
 </html>
