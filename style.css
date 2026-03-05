@@ -84,3 +84,198 @@ body {
     padding: 5px;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  font-family: Arial;
+  background:#b8c6d3;
+  margin:20px;
+}
+
+.dashboard{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  gap:20px;
+}
+
+.card{
+  background:#e9eef3;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.assistente{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.assistente img{
+  width:120px;
+}
+
+.assistente-texto button{
+  display:block;
+  width:100%;
+  margin-top:8px;
+  padding:10px;
+  background:#2a63a3;
+  color:white;
+  border:none;
+  border-radius:6px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td{
+  padding:8px;
+  text-align:center;
+  border-bottom:1px solid #ccc;
+}
+
+.status-verde{
+  background:green;
+  color:white;
+  padding:4px 10px;
+  border-radius:5px;
+}
+
+.status-amarelo{
+  background:orange;
+  color:white;
+  padding:4px 10px;
+  border-radius:5px;
+}
+
+.status-vermelho{
+  background:red;
+  color:white;
+  padding:4px 10px;
+  border-radius:5px;
+}
+
+.produtos{
+  display:flex;
+  gap:15px;
+}
+
+.produto{
+  background:#dfe5eb;
+  padding:15px;
+  border-radius:8px;
+  text-align:center;
+  width:120px;
+}
+
+.produto img{
+  width:60px;
+}
+
+.mensagem{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-top:15px;
+}
+
+.mensagem img{
+  width:40px;
+  border-radius:50%;
+}

@@ -12,16 +12,28 @@
 
 <div class="dashboard">
 
-  <div class="card">
-    <h3>Assistente</h3>
-    <p>Olá! Como posso ajudar?</p>
-    <button>Comprar Material</button><br>
-    <button>Comprar Serviço</button><br>
-    <button>Consultar Processos</button>
+  <div class="card assistente">
+
+    <div class="robo">
+      <img>
+    </div>
+
+    <div class="assistente-texto">
+      <h3>Olá, tudo bem?</h3>
+      <p>Como posso ajudar hoje?</p>
+
+      <button>Quero comprar material</button>
+      <button>Quero comprar serviço</button>
+      <button>Consultar fluxo de processos</button>
+      <button>Status das minhas requisições</button>
+    </div>
+
   </div>
+
 
   <div class="card">
     <h3>Pedidos Recentes</h3>
+
     <table>
       <tr>
         <th>Nº</th>
@@ -29,44 +41,86 @@
         <th>Valor</th>
         <th>Status</th>
       </tr>
+
       <tr>
         <td>125</td>
         <td>20/04/2020</td>
         <td>R$ 1.250,50</td>
-        <td><span class="status-verde">Aprovado</span></td>
+        <td><span class="status-verde">Processado</span></td>
       </tr>
+
       <tr>
         <td>126</td>
         <td>22/04/2020</td>
         <td>R$ 850,00</td>
-        <td><span class="status-amarelo">Pendente</span></td>
+        <td><span class="status-amarelo">Análise</span></td>
       </tr>
+
       <tr>
         <td>127</td>
         <td>25/04/2020</td>
         <td>R$ 430,00</td>
         <td><span class="status-vermelho">Cancelado</span></td>
       </tr>
+
     </table>
   </div>
 
-  <div class="card">
-    <h3>Recomendações</h3>
-    <p>Grampeador - R$ 18,00</p>
-    <button>Adicionar</button>
 
-    <p>Papel A4 - R$ 34,90</p>
-    <button>Adicionar</button>
+  <div class="card">
+    <h3>Baseado em suas últimas compras</h3>
+
+    <div class="produtos">
+
+      <div class="produto">
+        <img>
+        <p>Papel A4</p>
+        <span>R$ 34,90</span>
+      </div>
+
+      <div class="produto">
+        <img>
+        <p>Grampeador</p>
+        <span>R$ 18,00</span>
+      </div>
+
+      <div class="produto">
+        <img>
+        <p>Caneta Azul</p>
+        <span>R$ 2,50</span>
+      </div>
+
+      <div class="produto">
+        <img>
+        <p>Caderno</p>
+        <span>R$ 14,90</span>
+      </div>
+
+    </div>
   </div>
 
+
   <div class="card">
-    <h3>Mensagens</h3>
-    <p><b>João:</b> Verificar pagamento.</p>
-    <p><b>Márcio:</b> Meu serviço não foi entregue.</p>
+    <h3>Mensagens e Alertas</h3>
+
+    <div class="mensagem">
+      <img>
+      <p><b>João:</b> Verificar pagamento do fornecedor.</p>
+    </div>
+
+    <div class="mensagem">
+      <img>
+      <p><b>Márcio:</b> Meu serviço não foi entregue.</p>
+    </div>
+
+    <div class="mensagem">
+      <img>
+      <p><b>João:</b> Quando puder fale comigo.</p>
+    </div>
+
   </div>
 
 </div>
 
 </body>
 </html>
-
